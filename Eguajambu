@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Rede Social</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: auto;
+        }
+        .sidebar, .content {
+            float: left;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #f9f9f9;
+            border-right: 1px solid #ddd;
+        }
+        .content {
+            width: 75%;
+        }
+        .profile, .friends, .messages, .groups, .events, .feed {
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .post {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .post img {
+            max-width: 100%;
+            height: auto;
+        }
+        .post textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minha Rede Social</h1>
+</header>
+
+<div class="container">
+
+    <div class="sidebar">
+        <div class="profile">
+            <h2>Perfil</h2>
+            <p>Nome do Usuário</p>
+            <p><a href="#">Editar Perfil</a></p>
+        </div>
+        <div class="friends">
+            <h2>Amigos</h2>
+            <ul>
+                <li>Amigo 1</li>
+                <li>Amigo 2</li>
+                <li>Amigo 3</li>
+            </ul>
+        </div>
+        <div class="messages">
+            <h2>Mensagens</h2>
+            <ul>
+                <li><a href="#">Mensagem de Amigo 1</a></li>
+                <li><a href="#">Mensagem de Amigo 2</a></li>
+            </ul>
+        </div>
+        <div class="groups">
+            <h2>Grupos</h2>
+            <ul>
+                <li>Grupo 1</li>
+                <li>Grupo 2</li>
+                <li>Grupo 3</li>
+            </ul>
+        </div>
+        <div class="events">
+            <h2>Eventos</h2>
+            <ul>
+                <li>Evento 1</li>
+                <li>Evento 2</li>
+                <li>Evento 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="feed">
+            <h2>Feed de Notícias</h2>
+            <div class="post">
+                <textarea placeholder="O que você está pensando?"></textarea>
+                <button>Postar</button>
+            </div>
+            <div class="post">
+                <p><strong>Usuário 1</strong></p>
+                <p>Conteúdo do post do usuário 1.</p>
+                <p><a href="#">Curtir</a> | <a href="#">Comentar</a></p>
+            </div>
+            <div class="post">
+                <p><strong>Usuário 2</strong></p>
+                <p>Conteúdo do post do usuário 2.</p>
+                <p><a href="#">Curtir</a> | <a href="#">Comentar</a></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Minha Rede Social. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
